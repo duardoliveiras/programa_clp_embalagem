@@ -4,13 +4,13 @@ O objetivo desse projeto é desenvolver um programa para um CLP industrial de um
 
 Iremos desenvolver o programa nas seguintes linguagens:
 
+* ST
+
 * Ladder
 
 * FBD
 
 * SFC
-
-* ST
 
 O objetivo de utilizar um ampla variedade de linguagens para resolver um mesmo problema é que além de podermos comparar qual linguagem conseguiu ser mais eficiente, também podemos praticar um grande variedade de linguagens utilizadas no mercado de automação industrial. 
 
@@ -18,7 +18,7 @@ O objetivo de utilizar um ampla variedade de linguagens para resolver um mesmo p
 
 * Todo o processo de seleção e embalagem é iniciado e parado por um botão **B1**. Ao pressionar **B1** a primeira vez o processo inicia, o que é sinalizado por uma lâmpada **(L1)**. Se o processo estiver em funcionamento, pode ser parado pelo mesmo botão, o que é sinalizado por outra lâmpada **(L2)**.
 
-* 1. Classificação e seleção das peças - Uma peça cai no meio da esteira; após 3 segundos, para estabilizar a peça, os sensores S4 e S3 verificam a altura desta. Se a peça estiver boa, ela ativará os dois sensores. Se ela ativar apenas o sensor S3 a peça deverá ser considerada defeituosa e ser descartada.
+* Classificação e seleção das peças - Uma peça cai no meio da esteira; após 3 segundos, para estabilizar a peça, os sensores S4 e S3 verificam a altura desta. Se a peça estiver boa, ela ativará os dois sensores. Se ela ativar apenas o sensor S3 a peça deverá ser considerada defeituosa e ser descartada.
 
 * Os sensores S1 e S2, respectivamente, contabilizam as peças boas e defeituosas. A contagem das peças boas é usada para limitar o número de peças por caixa. Esse número máximo de peças por caixa é determinado por dois botões (B2 e B3). O número de peças defeituosas é contabilizado para controle de qualidade da produção. Também, se de dez peças, oito forem defeituosoas o processo deve ser interrompido e sinalizado por uma lâmpada (L3).
 
@@ -234,8 +234,6 @@ Programa:
 ![ld1](imgs/ld3.png)
 
 Rodando o projeto utlizando interface gráfica:
-
-![gif1](imgs/gif1.gif)
 
 ## FBD
 
